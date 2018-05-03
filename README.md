@@ -15,9 +15,8 @@ The node2vec algorithm learns continuous representations for nodes in any (un)di
 Current build status
 ====================
 
-[![Linux](https://img.shields.io/circleci/project/github/conda-forge/node2vec-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/node2vec-feedstock)
-[![OSX](https://img.shields.io/travis/conda-forge/node2vec-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/node2vec-feedstock)
-[![Windows](https://img.shields.io/appveyor/ci/conda-forge/node2vec-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/node2vec-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/node2vec-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/node2vec-feedstock)
 
 Current release info
 ====================

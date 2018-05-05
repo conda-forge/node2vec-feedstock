@@ -1,6 +1,6 @@
 {% set name = "node2vec" %}
-{% set version = "0.1.1" %}
-{% set sha256 = "28c4e21841db1224b9d7818c177c721bc5244b0004f57e143003ba78243dab04" %}
+{% set version = "0.1.2" %}
+{% set sha256 = "e5aa8a7dfeae25c0f24d4b1a36b91fe21895639f7ab377f38865a08005c79a6d" %}
 
 package:
   name: {{ name|lower }}

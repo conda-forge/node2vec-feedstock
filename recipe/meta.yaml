@@ -1,6 +1,6 @@
 {% set name = "node2vec" %}
-{% set version = "0.1.1" %}
-{% set sha256 = "28c4e21841db1224b9d7818c177c721bc5244b0004f57e143003ba78243dab04" %}
+{% set version = "0.2.2" %}
+{% set sha256 = "7e5d96deeb7d4d4a0d826fb2fc9a11931a39f316e58ac3124f76a3bb627cab8a" %}
 
 package:
   name: {{ name|lower }}
@@ -13,7 +13,7 @@ source:
 
 build:
   noarch: python
-  number: 1
+  number: 0
   script: python -m pip install --no-deps --ignore-installed .
 
 requirements:

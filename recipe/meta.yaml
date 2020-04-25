@@ -1,15 +1,13 @@
 {% set name = "node2vec" %}
-{% set version = "0.2.2" %}
-{% set sha256 = "7e5d96deeb7d4d4a0d826fb2fc9a11931a39f316e58ac3124f76a3bb627cab8a" %}
+{% set version = "0.3.0" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  fn: {{ name }}-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: {{ sha256 }}
+  sha256: ac54fd882897e61662d3d17251efa86f59d1b2113025f89060aaa4b66986376f
 
 build:
   noarch: python
@@ -31,12 +29,16 @@ requirements:
 test:
   imports:
     - node2vec
+  requires:
+    - pip
+  commands:
+    - pip check
 
 about:
   home: https://github.com/eliorc/node2vec
   license: MIT
   license_family: MIT
-  license_file: '{{ environ["RECIPE_DIR"] }}/LICENSE'
+  license_file: LICENSE
   summary: 'The node2vec algorithm learns continuous representations for nodes in any (un)directed, (un)weighted graph.'
 
   description: |

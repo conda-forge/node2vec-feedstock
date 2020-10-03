@@ -5,7 +5,7 @@ Home: https://github.com/eliorc/node2vec
 
 Package license: MIT
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: The node2vec algorithm learns continuous representations for nodes in any (un)directed, (un)weighted graph.
 

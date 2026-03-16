@@ -151,4 +151,5 @@ Feedstock Maintainers
 =====================
 
 * [@cu8blank](https://github.com/cu8blank/)
+* [@llperez](https://github.com/llperez/)
 

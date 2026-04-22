@@ -31,7 +31,6 @@ pkgs_dirs:
 
 CONDARC
 
-
 mamba install --update-specs --yes --quiet --channel conda-forge \
     conda-build pip boa conda-forge-ci-setup=3 "py-lief<0.12"
 mamba update --update-specs --yes --quiet --channel conda-forge \
@@ -44,6 +43,7 @@ source run_conda_forge_build_setup
 
 # make the build number clobber
 make_build_number "${FEEDSTOCK_ROOT}" "${RECIPE_ROOT}" "${CONFIG_FILE}"
+
 
 
 
